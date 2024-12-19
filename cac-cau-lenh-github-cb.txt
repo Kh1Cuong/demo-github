@@ -1,0 +1,1 @@
+git add . ( them tat ca cac file )
