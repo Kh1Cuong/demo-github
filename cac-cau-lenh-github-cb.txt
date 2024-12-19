@@ -1,1 +1,22 @@
-git add . ( them tat ca cac file )
+***TẠO 1 PROJECT TRÊN GITHUB***
+XUẤT PHÁT ĐIỂM RỖNG ( CHƯA CODE )
+1. tạo repository (folder) - nơi chứa code
+2. clone project này: git clone link_your_repository
+3. viết code 
+    git status (kiểm tra trạng thái files)
+    git add (thêm files)
+    git commit -m "your_message" (tạo nội dung commit)
+    git push origin main
+
+
+
+***TẠO PROJECT LOCAL VÀ ĐẨY LÊN GITHUB***
+XUẤT PHÁT ĐIỂM ( ĐÃ CÓ CODE )
+1. tạo repository (folder) - nơi chứa code
+2. git init
+3. viết code
+    git status
+    git add
+    git commit -m "your_message"
+    git remote add origin https://...
+    git push origin master
