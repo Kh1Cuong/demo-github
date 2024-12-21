@@ -20,3 +20,9 @@ XUẤT PHÁT ĐIỂM ( ĐÃ CÓ CODE )
     git commit -m "your_message"
     git remote add origin https://...
     git push origin master
+
+***HTTPS VS SSH***
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Note: if u are using a legacy system that doesn't support the ed25519 algorithm, use:
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
