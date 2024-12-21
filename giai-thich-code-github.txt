@@ -1,0 +1,26 @@
+CẤU HÌNH VÀ THIẾT LẬP GITHUB
+
+git config –global user.name “Tên của bạn”: Đặt tên người dùng của bạn ở chế độ toàn cục.
+git config –global user.email “youremail@example.com”: Thiết lập email của bạn ở chế độ toàn cầu.
+
+
+Initializing a Repository  
+Here are the Git initializing a repository commands:
+
+git init: Initializes a new Git repository in the current directory.
+git init <directory>: Creates a new Git repository in the specified directory.
+git clone <repository_url>: this Clones a repository from a remote server to your local machine.
+git clone –branch <branch_name> <repository_url>: Clones a specific branch from a repository.
+
+
+Basic Git Commands
+Here are some basic Git commands:
+
+git add <file>:	Adds a specific file to the staging area.
+git add . or git add –all:	Adds all modified and new files to the staging area.
+git status:	Shows the current state of your repository, including tracked and untracked files, modified files, and branch information.
+git commit -m “<message>” or git commit –message “<message>”:	Creates a new commit with the changes in the staging area and specifies the commit message inline.
+git branch:	Lists all branches in the repository.
+git branch <branch-name>:	Creates a new branch with the specified name.
+git branch -d <branch-name>:	Deletes the specified branch.
+git push <remote> <branch>:	Pushes local commits to the specified branch of the remote repository.
